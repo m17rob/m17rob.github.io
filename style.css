@@ -253,20 +253,22 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: start;
 }
 
-@media only screen and (max-width: 1025px) {
+/* @media only screen and (max-width: 1025px) {
   .showcase {
     justify-content: center;
   }
-}
+} */
 
 .showcase > :not(:last-child) {
   margin-right: 2rem;
 }
 
-@media only screen and (max-width: 919px) {
+@media only screen and (max-width: 940px) {
   .showcase {
     flex-direction: column;
     justify-content: center;
