@@ -235,12 +235,16 @@ h2 {
 
 .web {
   margin-right: 2rem;
+  padding: 0.5rem 2rem;
+}
+
+.logo {
+  padding: 0.5rem 2rem;
 }
 
 .selectbtn {
   border: 1px solid #3b3486 !important;
   border-radius: 20px;
-  padding: 0.5rem 2rem;
 }
 
 .showcase {
