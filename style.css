@@ -283,8 +283,8 @@ h2 {
 
 @media only screen and (max-width: 350px) {
   .showcase > img {
-    width: 37rem;
-    height: 23rem;
+    width: 75%;
+    height: 60%;
   }
 }
 
