@@ -438,11 +438,25 @@ h2 {
   .benebtn {
     width: 46rem;
   }
+
+  /* Stiluri specifice pentru dispozitive iPhone */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 325px) {
+    .benebtn {
+      width: 46rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 320px) {
   .benebtn {
     width: 45rem;
+  }
+
+  /* Stiluri specifice pentru dispozitive iPhone */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 320px) {
+    .benebtn {
+      width: 45rem;
+    }
   }
 }
 
@@ -450,11 +464,25 @@ h2 {
   .benebtn {
     width: 43rem;
   }
+
+  /* Stiluri specifice pentru dispozitive iPhone */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 302px) {
+    .benebtn {
+      width: 43rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 300px) {
   .benebtn {
     width: 40rem;
+  }
+
+  /* Stiluri specifice pentru dispozitive iPhone */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 300px) {
+    .benebtn {
+      width: 40rem;
+    }
   }
 }
 
