@@ -281,6 +281,13 @@ h2 {
   border-radius: 2rem;
 }
 
+@media only screen and (max-width: 350px) {
+  .showcase > img {
+    width: 37rem;
+    height: 23rem;
+  }
+}
+
 .csoon {
   width: 43rem;
   height: 28rem;
@@ -291,6 +298,13 @@ h2 {
   justify-content: center;
   color: #3f3d56;
   font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 350px) {
+  .csoon {
+    width: 37rem;
+    height: 23rem;
+  }
 }
 
 .dnone {
