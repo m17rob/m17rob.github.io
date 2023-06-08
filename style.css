@@ -300,10 +300,10 @@ h2 {
   font-size: 1.6rem;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 420px) {
   .csoon {
-    width: 37rem;
-    height: 23rem;
+    width: 75%;
+    height: 60%;
   }
 }
 
