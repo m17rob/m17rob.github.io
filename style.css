@@ -410,82 +410,6 @@ h2 {
   margin-top: 7rem;
 }
 
-/* @media only screen and (max-width: 600px) {
-  .benebtn {
-    width: 60rem;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .benebtn {
-    width: 55rem;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .benebtn {
-    width: 50rem;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .benebtn {
-    width: 48rem;
-  }
-}
-
-@media only screen and (max-width: 325px) {
-  .benebtn {
-    width: 46rem;
-  }
-
-  /* Stiluri specifice pentru dispozitive iPhone */
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 325px) {
-    .benebtn {
-      width: 46rem;
-    }
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .benebtn {
-    width: 45rem;
-  }
-
-  /* Stiluri specifice pentru dispozitive iPhone */
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 320px) {
-    .benebtn {
-      width: 45rem;
-    }
-  }
-}
-
-@media only screen and (max-width: 302px) {
-  .benebtn {
-    width: 43rem;
-  }
-
-  /* Stiluri specifice pentru dispozitive iPhone */
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 302px) {
-    .benebtn {
-      width: 43rem;
-    }
-  }
-} */
-
-@media only screen and (max-width: 300px) {
-  .benebtn {
-    width: 40rem;
-  }
-
-  /* Stiluri specifice pentru dispozitive iPhone */
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 300px) {
-    .benebtn {
-      width: 40rem;
-    }
-  }
-}
-
 .title {
   display: flex;
   align-items: center;
@@ -502,6 +426,12 @@ h2 {
 
 .title > img {
   width: 3%;
+}
+
+@media only screen and (min-width: 950px) {
+  .title > img {
+    width: 2%;
+  }
 }
 
 .benecontent > h4 {
