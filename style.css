@@ -440,6 +440,12 @@ h2 {
   }
 }
 
+@media only screen and (max-width: 300px) {
+  .benebtn {
+    width: 40rem;
+  }
+}
+
 .title {
   display: flex;
   align-items: center;
