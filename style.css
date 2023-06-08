@@ -416,6 +416,12 @@ h2 {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .benebtn {
+    width: 55rem;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .benebtn {
     width: 50rem;
